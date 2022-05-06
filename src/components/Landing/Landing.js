@@ -20,7 +20,7 @@ function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
 
     const useStyles = makeStyles((t) => ({
-        resumeBtn: {
+        aboutBtn: {
             color: theme.primary,
             borderRadius: '30px',
             textTransform: 'inherit',
@@ -88,7 +88,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.github && (
+                        {/* {socialsData.github && (
                             <a
                                 href={socialsData.github}
                                 target='_blank'
@@ -100,7 +100,7 @@ function Landing() {
                                     aria-label='GitHub'
                                 />
                             </a>
-                        )}
+                        )} */}
                         {/* {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
@@ -164,7 +164,7 @@ function Landing() {
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
-                            {headerData.resumePdf && (
+                            {/* {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
                                     download='resume'
@@ -175,7 +175,17 @@ function Landing() {
                                         Download CV
                                     </Button>
                                 </a>
-                            )}
+                            )} */}
+                            <NavLink
+                                to='/#about'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <Button className={classes.aboutBtn}>
+                                    About Me
+                                </Button>
+                            </NavLink>
                             <NavLink
                                 to='/#contacts'
                                 smooth={true}
@@ -183,7 +193,7 @@ function Landing() {
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>
-                                    Contact
+                                    Get in touch
                                 </Button>
                             </NavLink>
                         </div>

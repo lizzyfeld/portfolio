@@ -6,6 +6,7 @@ import './Education.css'
 import EducationCard from './EducationCard';
 
 import { educationData } from '../../data/educationData'
+import stanford from '../../assets/images/stanford.jpg'
 
 function Education() {
 
@@ -24,11 +25,14 @@ function Education() {
                             course={edu.course}
                             startYear={edu.startYear}
                             endYear={edu.endYear}
+                            GPA = {edu.GPA}
+                            details = {edu.details}
                         />
                     ))}
                 </div>
                 <div className="education-image">
-                    <img src={theme.eduimg} alt=""/>
+                    {/* <img src={theme.eduimg} alt=""/> */}
+                    <img src='https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/SU_SealColor_web3.png' alt=""/>
                 </div>
             </div>
         </div>

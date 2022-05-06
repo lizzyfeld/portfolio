@@ -1,23 +1,26 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
-        endYear: '2018'
+        institution: 'Stanford University',
+        course: 'B.S. Computer Science',
+        startYear: '2019',
+        endYear: 'Expected 2023',
+        deails: '',
     },
     {
         id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
-        startYear: '2019',
-        endYear: '2021'
+        institution: '(EPFL) École polytechnique fédérale de Lausanne',
+        startYear: 'January',
+        endYear: 'June 2018',
+        GPA: '',
+        details: 'Leading Research Institute in Engineering and Technology'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: 'Palos Verdes High School',
+        startYear: '2013',
+        endYear: '2017',
+        GPA: 'GPA: 4.8/4.0',
+        details: 'ACT: 34'
     },
 ]

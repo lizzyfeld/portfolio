@@ -6,55 +6,71 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import spunk from '../assets/images/spunk.png'
+import meal_club from '../assets/images/meal_club.png'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
+        projectName: 'Women Ignite',
+        projectDesc: 'Founding member a female hacker house and incubator of 20 women in CS. We quarantined for 12 weeks together during the pandemic, organized incredible mentors, learned from eachother, and built.',
+        projectDetails: '',
+        tags: [],
+        code: '',
         demo: 'https://historythroughmovies.pythonanywhere.com/',
         image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'Meal Club',
+        projectDesc: 'Meal plans for students from local restaurants',
+        projectDetails: 'I created Meal Club with a friend when we saw how much restaurants were struggling to stay afloat during the pandemic. I wanted to find a way to create more revenue streams for local businesses, and I wanted to create a frictionless experience for my friends and I when ordering food together.',
+        tags: ['React','Javascript', 'Firebase'],
+        code: '',
+        demo: 'https://office365stanford-my.sharepoint.com/:b:/g/personal/lizfeld_stanford_edu/EZG_erI9FSFDsnvj2dSXJtUB7NkbyUtla5yQSU8FavRCDA?e=obwKYU',
+        image: meal_club
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
+        projectName: 'Spunk',
+        projectDesc: 'Energy tracking app to avoid burnout. Spunk helps you track what activities drain or provide you with energy, reprioritize your schedule, and use these metrics to inform how to have a more balanced and meaningful life.',
+        projectDetails: '',
+        tags: ['React Native', 'Javascript', 'Firebase'],
+        code: 'https://github.com/lizzyfeld/Spunk',
         demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        image: spunk
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Unbock the Port',
+        projectDesc: 'Dove deep into the supply chain issues that are imperiling the global economy. Founded a student organization and attempted to purchase a 360 acre plot of land and develop software to run it as a shipping yard.',
+        projectDetails: '',
+        tags: ['HTML', 'CSS', 'Javascript'],
+        code: 'https://github.com/iamrituyadav/Reliance_digital',
+        demo: 'https://archive.ph/nzvAx',
+        image: "https://gcaptain.com/wp-content/uploads/2020/06/MSC_isabella_Los_angeles-scaled.jpg"
     },
     {
         id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
+        projectName: 'TrialX',
+        projectDesc: 'Awarded 1st place at Stanford\'s Biodesign Hackathon out of 500 participants.',
+        projectDetails: 'A digital, simpler way to screen and monitor candidates for research and clinical trials for Neuro-degenerative diseases. Worked with a team of Physicians to create an MVP in 36 hours using Swift and CardinalKit, Stanford\'s open source platform for digital health applications.',
+        tags: ['Swift', 'CardinalKit', 'Firebase'],
+        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
         demo: 'https://reliance-digital-clone.herokuapp.com/',
         image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    },
-    
+    }, 
+    {
+        id: 6,
+        projectName: 'Photo Sharing Web Application',
+        projectDesc: 'Awarded 1st place at Stanford\'s Biodesign Hackathon out of 500 participants.',
+        projectDetails: 'A digital, simpler way to screen and monitor candidates for research and clinical trials for Neuro-degenerative diseases. Worked with a team of Physicians to create an MVP in 36 hours using Swift and CardinalKit, Stanford\'s open source platform for digital health applications.',
+        tags: ['Javascript', 'HTML', 'CSS'],
+        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
+        demo: 'https://reliance-digital-clone.herokuapp.com/',
+        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+    }, 
 ]
 
 
