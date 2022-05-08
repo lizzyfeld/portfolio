@@ -12,24 +12,14 @@ function Achievement() {
     return (
         <>
             {achievementData.achievements.length > 0 && (
+                <div>
                 <div className="achievement" id="achievement" style={{backgroundColor: theme.secondary}}>
-                <div className="achievement-body">
-                    <h1 style={{color: theme.primary}}>Professional Experience</h1>
-                    <h4 style={{color:theme.tertiary}}>{achievementData.bio}</h4>
+                    <div className="achievement-body">
+                        <h1 style={{color: theme.primary}}>Professional Experience</h1>
+                    </div>
+                    <Timeline/>
                 </div>
-                <Timeline/>
-                {/* <div className="achievement-cards">
-                    {achievementData.achievements.map(achieve => ( 
-                        <AchievementCard 
-                        id={achieve.id}
-                        company={achieve.company}
-                        role={achieve.role}
-                        timeLine={achieve.timeLine}
-                        details={achieve.details}
-                        image={achieve.image}/>
-                    ))}
-                </div> */}
-            </div>
+                </div>
             )}
         </>
     )
