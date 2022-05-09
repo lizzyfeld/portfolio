@@ -23,14 +23,14 @@ export const timelineData =  [
             company : 'Playco',
             image : 'https://uploads-ssl.webflow.com/5ef5b52561b705cdd979275e/5f6bf7aa03bbe535e0b56505_Open%20Graph%20Image.png'
         },
-        {
-            id : 4,
-            role : 'Chapter Founder and President',
-            details : 'Lead a team of 12 students in the consultation of Israeli startups',
-            timeLine: 'June - August 2019',
-            company : 'TAMID',
-            image : 'https://m.media-amazon.com/images/I/31AQ1Cg9EGL._SS400_.jpg'
-        },
+        // {
+        //     id : 4,
+        //     role : 'Chapter Founder and President',
+        //     details : 'Lead a team of 12 students in the consultation of Israeli startups',
+        //     timeLine: 'June - August 2019',
+        //     company : 'TAMID',
+        //     image : 'https://m.media-amazon.com/images/I/31AQ1Cg9EGL._SS400_.jpg'
+        // },
     ]
 
 

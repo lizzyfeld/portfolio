@@ -14,8 +14,8 @@ function Achievement() {
             {achievementData.achievements.length > 0 && (
                 <div>
                 <div className="achievement" id="achievement" style={{backgroundColor: theme.secondary}}>
-                    <div className="achievement-body">
-                        <h1 style={{color: theme.primary}}>Professional Experience</h1>
+                    <div className="titleContainer">
+                        <h1 className="achievement-body" style={{color: theme.primary}}>Professional Experience</h1>
                     </div>
                     <Timeline/>
                 </div>

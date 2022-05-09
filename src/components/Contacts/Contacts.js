@@ -169,11 +169,11 @@ function Contacts() {
             <div className='contacts--container'>
                 <h1 style={{ color: theme.primary }}>Let's Talk!</h1>
                 <div className='new--container'>
-                    <a href={`mailto:${contactsData.email}`} className='personal-details'>
+                    <a href={`mailto:${contactsData.email}`} className='personal-details-container'>
                             <div className={classes.detailsIcon}>
                                 <FiAtSign />
                             </div>
-                            <p style={{ color: theme.tertiary }}>
+                            <p style={{ color: theme.tertiary }} href={`mailto:${contactsData.email}`} className='personal-details'>
                                 {contactsData.email}
                             </p>
                     </a>
