@@ -2,7 +2,9 @@ import React, { useContext } from 'react';
 
 import './About.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
-import { aboutData } from '../../data/aboutData'
+import { aboutData } from '../../data/aboutData';
+import peru from '../../assets/images/peru.JPG'
+import shadows from '@material-ui/core/styles/shadows';
 
 
 
@@ -23,8 +25,10 @@ function About() {
                 </div>
                 <div className="about-img">
                     <img 
-                        src={aboutData.image === 2 ? theme.aboutimg1 : theme.aboutimg2}  
+                        src={peru}  
                         alt="" 
+                        style={{borderRadius: 20}}
+                        className="about-image-shadow"
                     />
                 </div>
             </div>

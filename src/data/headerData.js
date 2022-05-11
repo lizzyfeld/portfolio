@@ -3,7 +3,7 @@ import profile_pic from '../assets/images/profile_pic.JPG'
 
 export const headerData = {
     name: 'Hi, I\'m Liz',
-    desciption:"Lorem ipsum dolor sit amet. Qui temporibus consequatur ad quia deserunt eos quibusdam beatae. Hic excepturi ea neque quia ut veniam reprehenderit ea consequatur voluptatem aut error quia et omnis ullam",
+    desciption:"I'm a Stanford junior studying Computer Science, a builder, an optimist, an adventurer, and an ever-curious learner.",
     image: profile_pic,
     resumePdf: resume
 }
