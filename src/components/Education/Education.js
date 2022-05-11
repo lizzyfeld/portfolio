@@ -1,7 +1,5 @@
 import React, { useContext } from 'react';
-
 import { ThemeContext } from '../../contexts/ThemeContext';
-
 import './Education.css'
 import EducationCard from './EducationCard';
 
@@ -30,9 +28,9 @@ function Education() {
                         />
                     ))}
                 </div>
-                <div className="education-image">
+                <div className="stanford-image">
                     {/* <img src={theme.eduimg} alt=""/> */}
-                    <img src='https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/SU_SealColor_web3.png' alt=""/>
+                    <img src={stanford} alt=""/>
                 </div>
             </div>
         </div>

@@ -13,8 +13,9 @@ export const timelineData =  [
             details : '',
             timeLine: 'February - July 2021',
             company : 'ClassDojo',
-            image : 'https://www.kindpng.com/picc/m/792-7921288_class-dojo-logo-hd-png-download.png'
+            image : 'https://lh3.googleusercontent.com/64PqNwG7bMuViNryxfYml4tF2Yq2QoiKKvooezSvNB7R0sP63BhBhTkXUkbZwsrTbH6A0FEARlP7rtQUWCwXdFQEYCiR1boi=s800'
         },
+        //https://i2.wp.com/www.alphr.com/wp-content/uploads/2020/01/How-to-Delete-Points-in-Classdojo.jpg?fit=1000%2C563&ssl=1
         {
             id : 3,
             role : 'Software Development Intern',

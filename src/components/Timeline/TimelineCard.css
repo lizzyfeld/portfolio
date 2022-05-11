@@ -31,8 +31,8 @@
 .timeline-card {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   width: fit-content;
   height: fit-content;
   /* padding: 1.5rem; */
@@ -43,21 +43,24 @@
 
 .educard-img {
   border-radius: 50%;
-  width: auto;
-  height: 70px;
+  /* width: auto; */
+  /* height: 70px; */
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: 1rem;
+  flex-shrink: 1;
 }
 
 .educard-img > img {
-  height: 70px;
-  width: auto;
+  /* height: 70px;
+  width: auto; */
+  object-fit: cover;
 }
 
 .education-details {
   margin-left: 0.6rem;
+  width: 27vw;
 }
 
 .education-details > h6 {
@@ -140,6 +143,7 @@
 
   .educard-img > img {
     width: 30px;
+    object-fit: cover;
   }
   .education-details > h6 {
     font-size: 0.85rem;

@@ -137,7 +137,7 @@ function Navbar() {
         <div className='navbar'>
             <div  className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
-                    Liz Feldman
+                    Liz
                 </h1>
 
                 <IoMenuSharp

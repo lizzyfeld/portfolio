@@ -28,7 +28,7 @@
   margin-bottom: 2rem;
 }
 
-.education-card {
+.edu-card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -41,7 +41,7 @@
   transition: background-color 200ms ease-in-out;
 }
 
-.educard-img {
+.edu-img {
   border-radius: 50%;
   width: 55px;
   height: 55px;
@@ -51,46 +51,47 @@
   flex-shrink: 0;
 }
 
-.educard-img > img {
+.edu-img > img {
   width: 40px;
 }
 
-.education-details {
+.edu-details {
   margin-left: 0.6rem;
 }
 
-.education-details > h6 {
+.edu-details > h6 {
   font-family: var(--primaryFont);
   font-size: 0.85rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
-.education-details > h4 {
+.edu-details > h4 {
   font-family: var(--primaryFont);
   font-size: 1.225rem;
   font-weight: 600;
 }
 
-.education-details > h5 {
+.edu-details > h5 {
   font-family: var(--primaryFont);
   font-size: 1.15rem;
   font-weight: 600;
 }
 
-.education-image {
+.stanford-image {
   box-sizing: border-box;
   padding: 1rem;
   flex: 0.35;
-  margin-top: 1rem;
+  margin-top: 3.5rem;
+  margin-right: 2rem;
   pointer-events: none;
-  border-radius: 50%;
+  border-radius: 8%;
 }
 
-.education-image > img {
+.stanford-image > img {
   width: 100%;
   aspect-ratio: 1;
-  border-radius: 50%;
+  border-radius: 8%;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
@@ -100,7 +101,7 @@
   .education {
     min-height: 100%;
   }
-  .education-image {
+  .stanford-image {
     display: none;
   }
   .education-description {
@@ -110,7 +111,7 @@
   .education-description > h1 {
     font-size: 3.2rem;
   }
-  .education-card {
+  .edu-card {
     width: 100%;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
@@ -126,31 +127,31 @@
   .education-description {
     padding: 1rem;
   }
-  .education-card {
+  .educ-card {
     padding: 1rem;
     margin-bottom: 1.5rem;
     height: 130px;
   }
-  .educard-img {
+  .edu-img {
     border-radius: 50%;
     width: 45px;
     height: 45px;
   }
 
-  .educard-img > img {
+  .edu-img > img {
     width: 30px;
   }
-  .education-details > h6 {
+  .edu-details > h6 {
     font-size: 0.85rem;
     margin-bottom: 0.45rem;
   }
 
-  .education-details > h4 {
+  .edu-details > h4 {
     font-size: 1.125rem;
     line-height: 126%;
   }
 
-  .education-details > h5 {
+  .edu-details > h5 {
     font-size: 1.05rem;
     line-height: 126%;
   }

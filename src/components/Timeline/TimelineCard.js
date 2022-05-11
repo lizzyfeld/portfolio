@@ -26,7 +26,7 @@ function TimelineCard({ id, company, role, timeLine, details, image }) {
                 <h5 style={{color: theme.tertiary80}}>{company}</h5>
                 <h6 style={{color: theme.tertiary80}}>{details}</h6>
             </div>
-            <div className="educard-img" style={{backgroundColor: theme.primary}}>
+            <div className="educard-img">
                 <img src={image} alt="" />
             </div>
         </div>      
